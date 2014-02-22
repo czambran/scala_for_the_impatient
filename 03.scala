@@ -54,6 +54,12 @@ object Chapter3 extends App {
 	println(sorted_array_buffer.toArray.mkString(","))
 	println()
 	
+	println("Exercises 3.5")
+	// Array and ArrayBuffers have the sum method
+	val array_of_doubles = Array(2.0, 3.0, 4.0)
+	// Average of value above is 3 (9.0 / 3)
+	println(array_of_doubles.sum / array_of_doubles.length)
+	println()
 	
 	
 }
